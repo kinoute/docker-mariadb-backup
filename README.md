@@ -1,10 +1,10 @@
-# tiredofit/mariadb-backup
+# hivacruz/docker-mariadb-backup
 
-[![Build Status](https://img.shields.io/docker/build/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
-[![Docker Layers](https://images.microbadger.com/badges/image/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/tiredofit/mariadb-backup)
-[![Image Size](https://img.shields.io/microbadger/image-size/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/tiredofit/mariadb-backup)
+[![Build Status](https://img.shields.io/docker/build/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
+[![Docker Pulls](https://img.shields.io/docker/pulls/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
+[![Docker Stars](https://img.shields.io/docker/stars/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
+[![Docker Layers](https://images.microbadger.com/badges/image/hivacruz/docker-mariadb-backup.svg)](https://microbadger.com/images/hivacruz/docker-mariadb-backup)
+[![Image Size](https://img.shields.io/microbadger/image-size/hivacruz/docker-mariadb-backup.svg)](https://microbadger.com/images/hivacruz/docker-mariadb-backup)
 
 # Introduction
 
@@ -28,6 +28,7 @@ This Container uses Alpine:Edge as a base.
 # Authors
 
 - [Dave Conroy](https://github.com/tiredofit)
+– [Yann Defretin](https://github.com/kinoute)
 
 # Table of Contents
 
@@ -49,11 +50,11 @@ You must have a working MySQL server available for this to work properly, it doe
 
 # Installation
 
-Automated builds of the image are available on [Docker Hub](https://hub.docker.com/tiredofit/mariadb-backup) and is the recommended method of installation.
+Automated builds of the image are available on [Docker Hub](https://hub.docker.com/hivacruz/docker-mariadb-backup) and is the recommended method of installation.
 
 
 ```bash
-docker pull tiredofit/mariadb-backup
+docker pull hivacruz/docker-mariadb-backup
 ```
 
 # Quick Start
