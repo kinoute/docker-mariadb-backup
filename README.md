@@ -1,8 +1,8 @@
 # hivacruz/docker-mariadb-backup
 
-[![Build Status](https://img.shields.io/docker/build/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
-[![Docker Pulls](https://img.shields.io/docker/pulls/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
-[![Docker Stars](https://img.shields.io/docker/stars/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
+[![Build Status](https://img.shields.io/docker/cloud/build/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
+[![Docker Pulls](https://img.shields.io/docker/cloud/pulls/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
+[![Docker Stars](https://img.shields.io/docker/cloud/stars/hivacruz/docker-mariadb-backup.svg)](https://hub.docker.com/r/hivacruz/docker-mariadb-backup)
 [![Docker Layers](https://images.microbadger.com/badges/image/hivacruz/docker-mariadb-backup.svg)](https://microbadger.com/images/hivacruz/docker-mariadb-backup)
 [![Image Size](https://img.shields.io/microbadger/image-size/hivacruz/docker-mariadb-backup.svg)](https://microbadger.com/images/hivacruz/docker-mariadb-backup)
 
