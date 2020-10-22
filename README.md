@@ -26,9 +26,8 @@ This Container uses Alpine:Edge as a base.
 
 # Authors
 
-- [Dave Conroy](https://github.com/tiredofit)
-
-– [Yann Defretin](https://github.com/kinoute)
+* [Dave Conroy](https://github.com/tiredofit)
+* [Yann Defretin](https://github.com/kinoute)
 
 # Table of Contents
 
