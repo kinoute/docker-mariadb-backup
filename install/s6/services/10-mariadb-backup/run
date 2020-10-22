@@ -227,7 +227,7 @@ done
 else
 
     # make the dump (Default)
-    mysqldump --max-allowed-packet=512M -A -h $DBSERVER -u$DBUSER -p$DBPASS > ${TMPDIR}/${TARGET}
+    mysqldump --max-allowed-packet=512M --single-transaction --quick --lock-tables=false -A -h $DBSERVER -u$DBUSER -p$DBPASS > ${TMPDIR}/${TARGET}
      
     # take md5 sum
   if [ "$MD5" = "TRUE" ];  then  
@@ -280,7 +280,7 @@ fi
 
     # Perform Automatic Cleanup 
         if [[ -n "$DB_CLEANUP_TIME" ]]; then
-        find "$DB_DUMP_TARGET/" -mmin +$DB_CLEANUP_TIME -iname "db_$DBNAME_*.*" -exec rm {} \;
+            find "$DB_DUMP_TARGET/" -mmin +$DB_CLEANUP_TIME -iname "db_$DBNAME_*.*" -exec rm {} \;
         fi
 
      # wait
